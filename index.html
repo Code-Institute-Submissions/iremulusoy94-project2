@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title -->
+    <title>
+        Quiz - Explore, Learn, Conquer: Your Journey in Knowledge
+    </title>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@600;700&family=Kumbh+Sans:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/6255250c8f.js" crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <div class="quiz-container">
+        <header class="quiz-header">
+            <h1 class="quiz-header-title">Quiz</h1>
+            <p class="quiz-header-tagline">
+                Explore, Learn, Conquer: Your Journey in Knowledge!
+            </p>
+        </header>
+        <div class="quiz-user-info">
+            <div class="quiz-instructions">
+                <h2 class="quiz-instructions-title">Instructions:</h2>
+                <ul>
+                    <li class="quiz-instructions-list-item">
+                        <i class="fas fa-arrow-circle-right"></i>
+                        You are about to embark on a journey of knowledge with a quiz
+                        consisting of 20 questions.
+                    </li>
+                    <li class="quiz-instructions-list-item">
+                        <i class="fas fa-arrow-circle-right"></i>
+                        You have a total of 10 minutes to complete the entire quiz. Time
+                        will be displayed on the top of the screen throughout the quiz.
+                    </li>
+                    <li class="quiz-instructions-list-item">
+                        <i class="fas fa-arrow-circle-right"></i>
+                        Each question will appear one by one. Read the questions carefully
+                        and select the most suitable answer from the provided options.
+                    </li>
+                    <li class="quiz-instructions-list-item">
+                        <i class="fas fa-arrow-circle-right"></i>
+                        Once you've selected an answer, the next question will
+                        automatically appear. Please note that you won't be able to go
+                        back to previous questions or change your answers.
+                    </li>
+                    <li class="quiz-instructions-list-item">
+                        <i class="fas fa-arrow-circle-right"></i>
+                        Take your time, but keep an eye on the timer. If you run out of
+                        time, the quiz will be automatically submitted, so manage your
+                        time wisely.
+                    </li>
+                </ul>
+                <p class="quiz-instructions-text">
+                    Good luck, and let the Quiz begin!
+                </p>
+            </div>
+            <input type="text" id="name" placeholder="Full Name" class="quiz-user-info-field" required />
+            <button id="start-btn" class="quiz-user-info-btn">Start Quiz</button>
+        </div>
+        <div id="quiz" class="quiz hidden">
+            <p id="user-greeting" class="quiz-greetings"></p>
+            <div class="quiz-top">
+                <p id="timer" class="quiz-timer">
+                    Time Left: <span id="time">10:00</span>
+                </p>
+            </div>
+            <div class="quiz-box">
+                <div id="question-container" class="question"></div>
+                <div id="answer-buttons" class="answers"></div>
+            </div>
+        </div>
+        <div id="result" class="hidden">
+            <div class="result-box">
+                <h3 class="result-title">Result!</h3>
+                <div id="final-score" class="result-score"></div>
+                <button class="result-btn">Try Again</button>
+            </div>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
