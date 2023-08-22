@@ -1,39 +1,40 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Quiz - Explore, Learn, Conquer: Your Journey in Knowledge
 
-Welcome,
+Welcome to the **Quiz** project! This interactive quiz application allows users to test their knowledge by answering a series of multiple-choice questions on various topics. The project is built using HTML, CSS, and JavaScript.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Table of Contents
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **July 26th, 2023**
+- [Quiz - Explore, Learn, Conquer: Your Journey in Knowledge](#quiz---explore-learn-conquer-your-journey-in-knowledge)
+  - [Table of Contents](#table-of-contents)
+  - [Instructions](#instructions)
+  - [Features](#features)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
 
-## Codeanywhere Reminders
+## Instructions
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+- You are about to embark on a journey of knowledge with a quiz consisting of 20 questions.
+- You have a total of 10 minutes to complete the entire quiz. Time will be displayed on the top of the screen throughout the quiz.
+- Each question will appear one by one. Read the questions carefully and select the most suitable answer from the provided options.
+- Once you've selected an answer, the next question will automatically appear. Please note that you won't be able to go back to previous questions or change your answers.
+- Take your time, but keep an eye on the timer. If you run out of time, the quiz will be automatically submitted, so manage your time wisely.
 
-`python3 -m http.server`
+## Features
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- Interactive multiple-choice questions.
+- Timer to keep track of the remaining time.
+- User-friendly interface.
+- Immediate feedback on correct and incorrect answers.
+- Display of final score at the end of the quiz.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+## Usage
 
-`http_server`
+1. Upon opening the application, you will be greeted with instructions for the quiz.
+2. Enter your full name and click the "Start Quiz" button to begin.
+3. Answer the questions one by one by selecting the appropriate option.
+4. Your progress and remaining time will be displayed.
+5. At the end of the quiz, your final score will be shown.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Contributing
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+Contributions to this project are welcome! If you find any issues or have suggestions for improvement, feel free to open an issue or submit a pull request.
