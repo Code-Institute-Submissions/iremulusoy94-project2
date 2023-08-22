@@ -13,6 +13,7 @@ Welcome to the **Quiz** project! This interactive quiz application allows users 
 
 ## Instructions
 <img src="screenshot (3).png" alt="Project Screenshot">
+
 - You are about to embark on a journey of knowledge with a quiz consisting of 20 questions.
 - You have a total of 10 minutes to complete the entire quiz. Time will be displayed on the top of the screen throughout the quiz.
 - Each question will appear one by one. Read the questions carefully and select the most suitable answer from the provided options.
@@ -21,6 +22,7 @@ Welcome to the **Quiz** project! This interactive quiz application allows users 
 
 ## Features
 <img src="screenshot (1).png" alt="Project Screenshot">
+
 - Interactive multiple-choice questions.
 - Timer to keep track of the remaining time.
 - User-friendly interface.
